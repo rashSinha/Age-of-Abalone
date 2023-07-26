@@ -1,0 +1,18 @@
+Model,Best Hyperparameters, R2 Score, MSE
+Random Forest,"{'regressor__max depth': 10,
+                'regressor__min_samples_split': 15,
+                'regressor__n_estimators': 200}"
+                0.5523670397869616,
+                4.845720817620853
+
+SVR,"{'regressor__C": 10.0,
+      'regressor__gamma': 0.1,
+      'regressor__kernel': 'rbf'}"
+      0.5646443047630817,
+      4.712816845469386
+
+KerasRegressor,"{'hidden_layers': 1,
+                 'neurons': 128,
+                 'optimizer': 'Adam'}"
+                 0.5434642880507332,
+                 4.9420949751489776

@@ -1,0 +1,16 @@
+model:
+  KerasRegressor:
+    epochs: 100
+    batch_size: 10
+    verbose: 1
+    optimizer: Adam
+    hidden_layers: 2
+    neurons: 32
+
+hyperparameters:
+  KerasRegressor:
+    optimizer:
+      - Adam
+      - SGD
+    hidden_layers: [1, 2]
+    neurons: [32, 64, 128]
